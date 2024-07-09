@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <title>Document</title>
+</head>
+<style>
+  .custom-checkbox {
+      width: 30px;  /* Increased width */
+      height: 20px;
+      margin: 5px; /* Increased height */
+      border-radius: 8px; /* Added border radius */
+      border: 2px solid #ccc; /* Optional: change border color */
+  }
+  .custom-checkbox:checked {
+      background-color: #3490dc; /* Optional: change background color when checked */
+      border-color: #3490dc; /* Optional: change border color when checked */
+  }
+</style>
+<body class="bg-gray-100    ">
+  <div class="flex justify-center items-center h-screen  px-20 shadow-2xl ">
+    <div class="   flex justify-center w-64 p-5  flex-col shadow-2xl  rounded-sm " >
+      <div class=" my-4  border-red-600  ">All Pages</div>
+      <hr class="min-h-0.5 text-gray-400 bg-gray-400">
+      <div class="flex justify-around border-gray-500 ">Page 1
+        <input type="checkbox" class="custom-checkbox">
+      </div>
+      <div class="flex justify-around">Page 2
+        <input type="checkbox" class="custom-checkbox ">
+      </div>
+      <div class="flex justify-around">Page 3
+        <input type="checkbox" class="custom-checkbox ">
+      </div>
+      <div class="flex justify-around">Page 4
+        <input type="checkbox" class="custom-checkbox">
+      </div>
+      <hr class="min-h-0.5 text-gray-400 bg-gray-400">
+      
+      
+      <button class="bg-yellow-400 w-full px-2 py-1 border my-5  border-black">Done</button>
+    </div>
+</div>    
+  
+</body>
+</html>
